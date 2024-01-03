@@ -15,6 +15,8 @@
 		0111F78E2B452C5100BD9509 /* MovieTrendingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0111F78D2B452C5100BD9509 /* MovieTrendingUITestsLaunchTests.swift */; };
 		0111F79D2B452E6A00BD9509 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0111F79B2B452E6900BD9509 /* MainViewController.swift */; };
 		0111F79E2B452E6A00BD9509 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0111F79C2B452E6900BD9509 /* MainViewController.xib */; };
+		0111F7A82B4544D100BD9509 /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0111F7A72B4544D100BD9509 /* MainViewController+TableView.swift */; };
+		0111F7AA2B45460600BD9509 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0111F7A92B45460600BD9509 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0111F78D2B452C5100BD9509 /* MovieTrendingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrendingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0111F79B2B452E6900BD9509 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0111F79C2B452E6900BD9509 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0111F7A72B4544D100BD9509 /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
+		0111F7A92B45460600BD9509 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			children = (
 				0111F79B2B452E6900BD9509 /* MainViewController.swift */,
 				0111F79C2B452E6900BD9509 /* MainViewController.xib */,
+				0111F7A72B4544D100BD9509 /* MainViewController+TableView.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 		0111F7A02B45321300BD9509 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0111F7A92B45460600BD9509 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -328,7 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0111F76B2B452C4F00BD9509 /* AppDelegate.swift in Sources */,
+				0111F7A82B4544D100BD9509 /* MainViewController+TableView.swift in Sources */,
 				0111F79D2B452E6A00BD9509 /* MainViewController.swift in Sources */,
+				0111F7AA2B45460600BD9509 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
