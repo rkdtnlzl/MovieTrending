@@ -26,6 +26,9 @@
 		0129D04D2B4BE3B2009CFA2B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129D04C2B4BE3B2009CFA2B /* UIViewExtensions.swift */; };
 		0129D04F2B4BE494009CFA2B /* MovieTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129D04E2B4BE494009CFA2B /* MovieTableCellViewModel.swift */; };
 		0129D0522B4BE712009CFA2B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0129D0512B4BE712009CFA2B /* SDWebImage */; };
+		0129D0562B56AFA7009CFA2B /* DetailsMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129D0542B56AFA7009CFA2B /* DetailsMovieViewController.swift */; };
+		0129D0572B56AFA7009CFA2B /* DetailsMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0129D0552B56AFA7009CFA2B /* DetailsMovieViewController.xib */; };
+		0129D0592B56B1FF009CFA2B /* DetailsMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129D0582B56B1FF009CFA2B /* DetailsMovieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		0129D0492B4BDF82009CFA2B /* MainMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMovieCell.xib; sourceTree = "<group>"; };
 		0129D04C2B4BE3B2009CFA2B /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		0129D04E2B4BE494009CFA2B /* MovieTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableCellViewModel.swift; sourceTree = "<group>"; };
+		0129D0542B56AFA7009CFA2B /* DetailsMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieViewController.swift; sourceTree = "<group>"; };
+		0129D0552B56AFA7009CFA2B /* DetailsMovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsMovieViewController.xib; sourceTree = "<group>"; };
+		0129D0582B56B1FF009CFA2B /* DetailsMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,7 @@
 			children = (
 				0111F7A92B45460600BD9509 /* MainViewModel.swift */,
 				0129D04E2B4BE494009CFA2B /* MovieTableCellViewModel.swift */,
+				0129D0582B56B1FF009CFA2B /* DetailsMovieViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 		0111F7A12B45321F00BD9509 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0129D0532B56AF7D009CFA2B /* DetailsMovieViewController */,
 				0111F79A2B452E4000BD9509 /* MainViewController */,
 			);
 			path = Controllers;
@@ -234,6 +242,15 @@
 				0129D0492B4BDF82009CFA2B /* MainMovieCell.xib */,
 			);
 			path = MainMovieCell;
+			sourceTree = "<group>";
+		};
+		0129D0532B56AF7D009CFA2B /* DetailsMovieViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0129D0542B56AFA7009CFA2B /* DetailsMovieViewController.swift */,
+				0129D0552B56AFA7009CFA2B /* DetailsMovieViewController.xib */,
+			);
+			path = DetailsMovieViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +366,7 @@
 				0111F7772B452C5100BD9509 /* LaunchScreen.storyboard in Resources */,
 				0111F79E2B452E6A00BD9509 /* MainViewController.xib in Resources */,
 				0111F7742B452C5100BD9509 /* Assets.xcassets in Resources */,
+				0129D0572B56AFA7009CFA2B /* DetailsMovieViewController.xib in Resources */,
 				0129D04B2B4BDF82009CFA2B /* MainMovieCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,11 +396,13 @@
 				0129D04A2B4BDF82009CFA2B /* MainMovieCell.swift in Sources */,
 				0111F76B2B452C4F00BD9509 /* AppDelegate.swift in Sources */,
 				0111F7AE2B45916600BD9509 /* APICaller.swift in Sources */,
+				0129D0562B56AFA7009CFA2B /* DetailsMovieViewController.swift in Sources */,
 				0111F7B02B4597CC00BD9509 /* TrendingMoviesModel.swift in Sources */,
 				0111F7A82B4544D100BD9509 /* MainViewController+TableView.swift in Sources */,
 				0129D04D2B4BE3B2009CFA2B /* UIViewExtensions.swift in Sources */,
 				0129D04F2B4BE494009CFA2B /* MovieTableCellViewModel.swift in Sources */,
 				0111F79D2B452E6A00BD9509 /* MainViewController.swift in Sources */,
+				0129D0592B56B1FF009CFA2B /* DetailsMovieViewModel.swift in Sources */,
 				0111F7AC2B458C0700BD9509 /* NetworkConstant.swift in Sources */,
 				0111F7AA2B45460600BD9509 /* MainViewModel.swift in Sources */,
 			);
